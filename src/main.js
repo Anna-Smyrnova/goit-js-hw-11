@@ -18,7 +18,7 @@ const gallery = document.querySelector('.gallery');
 formElem.addEventListener("submit", (e) => {
     e.preventDefault();
 
-    let inputVal = inputValue.value.trim();
+   const inputVal = inputValue.value.trim();
 
     if (!inputVal) {
         iziToast.error({
@@ -27,6 +27,8 @@ formElem.addEventListener("submit", (e) => {
         clearGallery();
         return;
     }
+
+    clearGallery ();
      showLoader();
         
 
