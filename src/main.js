@@ -15,7 +15,7 @@ const inputValue = document.querySelector('[name="search-text"]');
 const gallery = document.querySelector('.gallery');
 
 
-formEl.addEventListener("submit", (e) => {
+formElem.addEventListener("submit", (e) => {
     e.preventDefault();
 
     let inputVal = inputValue.value.trim();
@@ -53,5 +53,5 @@ formEl.addEventListener("submit", (e) => {
             })
     
    
-    formEl.reset();
+    formElem.reset();
 });

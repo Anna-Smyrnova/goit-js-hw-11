@@ -12,4 +12,4 @@ axios.defaults.params = {
 export function getImagesByQuery(query) {
      return axios.get('',
         { params: { ...axios.defaults.params, q: query } }).then(res => res.data);
-};
+}

@@ -8,7 +8,7 @@ let galLight;
 
 
 
-function createGallery (imges) {
+function createGallery (images) {
     let markup = images.map(image => `<li class="item-gallery">
         <a href="${image.largeImageURL}"><img src="${image.webformatURL}" alt="${image.tags}" width="360px" height="152px"> </a>
         <ul class="card-info">
