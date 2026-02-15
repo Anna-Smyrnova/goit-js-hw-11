@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import axios from "axios";
-import getImagesByQuery from './js/pixabay-api.js';
+import { getImagesByQuery } from './js/pixabay-api.js';
 import {
     createGallery,
     clearGallery,
